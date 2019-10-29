@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:title="@string/ActivitySettings">
+
+    <ListPreference
+        android:defaultValue="@string/ListPreferenceOrderByDefault"
+        android:entries="@array/SettingsOrderByTitles"
+        android:entryValues="@array/SettingsOrderByDefaultValues"
+        android:key="@string/ListPreferenceOrderByKey"
+        android:title="@string/ListPreferenceOrderByTitle"/>
+<EditTextPreference
+    android:defaultValue="@string/MinimumDefaultValue"
+    android:key="@string/MinimumKey"
+    android:title="@string/MinimumEarthquakeTitle"
+    android:inputType="numberDecimal"
+    android:selectAllOnFocus="true"
+
+    />
+
+
+</PreferenceScreen>

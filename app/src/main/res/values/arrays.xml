@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="SettingsOrderByTitles">
+        <item>@string/MagnitudeOrderByTitle</item>
+        <item>@string/timeOrderByTitle</item>
+    </string-array>
+    <string-array name="SettingsOrderByDefaultValues">
+        <item>@string/MagnitudeOrderByDefaultValue</item>
+        <item>@string/timeOrderByDefaultValue</item>
+    </string-array>
+</resources>
